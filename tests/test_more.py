@@ -42,7 +42,7 @@ class TextResponse:
         self.headers = Message()
         self.headers["Content-Type"] = content_type
 
-    def __enter__(self) -> "TextResponse":
+    def __enter__(self) -> TextResponse:
         return self
 
     def __exit__(self, *_: object) -> None:

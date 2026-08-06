@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# ruff: noqa: I001
 """Repository-local launcher; installation provides the `livelib-export` command."""
 
 from __future__ import annotations

@@ -14,7 +14,7 @@ class FakeResponse:
         self.headers = Message()
         self.headers["Content-Type"] = "application/json; charset=utf-8"
 
-    def __enter__(self) -> "FakeResponse":
+    def __enter__(self) -> FakeResponse:
         return self
 
     def __exit__(self, *_: object) -> None:
